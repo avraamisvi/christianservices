@@ -4,7 +4,7 @@
 
 var christianservicesControllers = angular.module('christianservicesControllers', []);
 
-phonecatControllers.controller('MainCtrl', ['$scope', '$http',
+christianservicesControllers.controller('MainCtrl', ['$scope', '$http',
   function($scope,$http) {
     //$scope.phones = Phone.query();
     //$scope.orderProp = 'age';

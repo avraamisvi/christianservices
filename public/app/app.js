@@ -2,16 +2,17 @@
 
 /* App Module */
 
-var gopresentationApp = angular.module('christianservicesApp', [
+var christianservicesApp = angular.module('christianservicesApp', [
  	'ngRoute',
  	'christianservicesControllers'
 ]);
 
-gopresentationApp.config(['$routeProvider',
+christianservicesApp.config(['$routeProvider',
   function($routeProvider) {
+
     $routeProvider.
       when('/main', {
-        templateUrl: '/public/app/partials/main.html',
+        templateUrl: '/app/partials/main.html',
         controller: 'MainCtrl'
       }).
       otherwise({
