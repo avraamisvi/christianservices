@@ -6,6 +6,10 @@ var christianservicesControllers = angular.module('christianservicesControllers'
 
 christianservicesControllers.controller('MainCtrl', ['$scope', '$http',
   function($scope,$http) {
+
+	  $scope.$on('$viewContentLoaded', function(){
+	    $(document).foundation();
+	  });
     //$scope.phones = Phone.query();
     //$scope.orderProp = 'age';
 

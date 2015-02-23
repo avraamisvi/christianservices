@@ -19,5 +19,3 @@ christianservicesApp.config(['$routeProvider',
         redirectTo: '/main'
       });
   }]);
-
-$(document).foundation();
